@@ -1,4 +1,5 @@
 --Drop DB if exists and recreate clean version and use it.
+CREATE DATBASE employees;
 DROP DATABASE IF EXISTS employees;
 USE employees;
 
@@ -10,7 +11,7 @@ Create Table department (
 
 
 --create roll table
-Create Table department (
+Create Table Role department (
     id INT AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(50) UNIQUE NOT NULL,
     salary DECIMAL NOT NULL,

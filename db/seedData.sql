@@ -1,4 +1,4 @@
-use employees;
+USE employees;
 
 --Insert Data To Department Table
 INSERT INTO department(name)

@@ -1,18 +1,18 @@
-const logo = require("asciiart-logo");
+// const logo = require("asciiart-logo");
 const { prompt } = require("inquirer");
 const db = require("./db");
 require("console.table");
   
-  init();
+  // init();
   
   // Display logo text, load main prompts
-  function init() {
-    const logoText = logo({ name: "Employee Manager" }).render();
+  // function init() {
+  //   const logoText = logo({ name: "Employee Manager" }).render();
   
-    console.log(logoText);
+  //   console.log(logoText);
   
-    loadMainPrompts();
-  }
+  //   loadMainPrompts();
+  // }
   
   async function loadMainPrompts() {
     const { choice } = await prompt([

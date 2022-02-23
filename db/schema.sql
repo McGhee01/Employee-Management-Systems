@@ -4,13 +4,13 @@ DROP DATABASE IF EXISTS employees;
 USE employees;
 
 -- Create Employee Table
-Create Table department (
+Create TABLE department (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(50) UNIQUE NOT NULL,
 );
 
 
---create roll table
+--Table Role
 Create Table Role department (
     id INT AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(50) UNIQUE NOT NULL,
@@ -21,7 +21,7 @@ Create Table Role department (
 );
 
 --Create Employee Table
-Create Table department (
+CREATE TABLE department (
     id INT AUT_INCREMENT PRIMARY KEY,
     first_name VARCHAR(50) UNIQUE NOT NULL,
     last_name DECIMAL NOT NULL,

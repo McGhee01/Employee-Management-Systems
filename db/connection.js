@@ -1,5 +1,5 @@
 // const util = require("util");
-var mysql = require("mysql");
+const mysql = require("mysql2");
 
 const connection = mysql.createConnection({
     host: "localhost",
@@ -7,7 +7,7 @@ const connection = mysql.createConnection({
     //Username
     user: "root",
     //Password
-    password: "null",
+    password: null,
     database: "employees"
 });
 
